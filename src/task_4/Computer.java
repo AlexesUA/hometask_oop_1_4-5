@@ -32,7 +32,7 @@ public class Computer {
 
     public String toString() {
         return String.format("Комп'ютер на базі процессора %1$s з частотою %2$.2fГгц, " +
-                "оперативної пам'яті %3$sGB та ємністю жесткого диску %4$sTB %n",
+                "оперативної пам'яті %3$sGB та ємністю жесткого диску %4$sTB ",
                 nameProcessor, frequensyProcessor, volumeRAM, volemeHDD);
     }
 }
